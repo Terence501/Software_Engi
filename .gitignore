@@ -3,6 +3,7 @@
 
 #Build
 build/
+build_tests/
 
 # Compiled Object files
 *.slo
