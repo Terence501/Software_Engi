@@ -13,11 +13,12 @@ configure_file(cmake/HelloProjConfig.h.in HelloProjConfig.h)
 
 #add libraries
 add_subdirectory(src/basic)
+add_subdirectory(src/sim)
 
 #add executable
 option(HELLOWORD_WITH_EXECUTABLES "Compile mains" ON)
 if(HELLOWORD_WITH_EXECUTABLES)
- message(STATUS "Configuring Hello World with executables")
+ message(STATUS "Configuring Hello World & Simtown with executables")
  add_subdirectory(mains)
 endif()
 

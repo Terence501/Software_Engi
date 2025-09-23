@@ -1,6 +1,8 @@
-#include "building.h"
-#include "dyn_array.h"
-#include "assert.h"
+
+#include <sim/building.h>
+#include <sim/dyn_array.h>
+#include <sim/rock.h>
+
 
 int main(int arg, char** argv) {
 	std::cout << "Initialization... " << std::endl;
