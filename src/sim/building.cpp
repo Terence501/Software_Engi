@@ -45,8 +45,6 @@ Building& Building::operator=( const Building& rhs )
         {
             delete rocks_[i];
         }
-        rocks_.clear(); // ⚡ obligatoire pour ne pas empiler les anciens
-                        // pointeurs
 
         id_ = rhs.id_;
         for( unsigned int i = 0; i < rhs.rocks_.size(); ++i )
